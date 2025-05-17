@@ -71,7 +71,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p className="text-muted-foreground">johndoe@example.com</p>
+                    <p className="text-muted-foreground">adeebzkhan9@gmail.com</p>
                   </div>
                 </motion.div>
                 <motion.div

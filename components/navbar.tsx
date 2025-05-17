@@ -49,7 +49,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-16">
           <Link href="#" className="text-xl font-bold group">
-            John<span className="text-primary group-hover:animate-pulse">Doe</span>
+            Adib<span className="text-primary group-hover:animate-pulse">Khan</span>
           </Link>
 
           {/* Desktop Navigation */}
