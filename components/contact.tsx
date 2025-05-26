@@ -84,7 +84,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground">+91 8180874920</p>
                   </div>
                 </motion.div>
                 <motion.div
@@ -97,7 +97,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-medium">Location</h3>
-                    <p className="text-muted-foreground">San Francisco, CA</p>
+                    <p className="text-muted-foreground">Amravati, Maharashtra</p>
                   </div>
                 </motion.div>
               </CardContent>

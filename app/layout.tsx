@@ -10,8 +10,9 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Adib Khan | Full Stack MERN Developer",
-  description: "Portfolio of Adib Khan, a Full Stack Developer specializing in MongoDB, Express, React, and Node.js",
-}
+  description:
+    "Portfolio of Adib Khan, a Full Stack Developer specializing in MongoDB, Express, React.js, Next.js, React Native and Node.js with 1+ years of experience at TruScholar",
+};
 
 export default function RootLayout({
   children,

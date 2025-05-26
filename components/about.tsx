@@ -34,32 +34,24 @@ export default function About() {
                   Full Stack Developer
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  Proactive and results-driven Full Stack Developer with 1+
-                  years of hands-on experience in building scalable web and
-                  mobile applications using the MERN stack. Proven track record
-                  in leading front-end and back-end development with a focus on
-                  performance optimization, clean architecture, and user-centric
-                  features. Strong collaborator with cross-functional teams,
-                  proficient in integrating third-party services, leveraging
-                  cloud tools, and delivering high-quality software that meets
-                  business goals. Passionate about emerging technologies like
-                  blockchain and AI integration in web ecosystems.
+                  I'm a proactive and results-driven Full Stack Developer with
+                  1+ years of hands-on experience in building scalable web and
+                  mobile applications using the MERN stack. I have a proven
+                  track record in leading front-end and back-end development
+                  with a focus on performance optimization and clean
+                  architecture.
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  I'm a passionate Full Stack Developer with expertise in the
-                  MERN stack (MongoDB, Express.js, React.js, Node.js). With 1+
-                  years of experience, I specialize in building scalable web
-                  applications and RESTful APIs.
-                </p>
-                <p className="text-muted-foreground mb-4">
-                  My journey in web development started when I built my first
-                  website in college. Since then, I've worked on numerous
-                  projects ranging from e-commerce platforms to real-time
-                  applications.
+                  Currently working at TruScholar, I've developed complex
+                  features for Web Wallet and Mobile App using React.js, React
+                  Native, and Node.js, improving performance by over 40%. I'm
+                  passionate about creating user-centric features and delivering
+                  high-quality software that meets business goals.
                 </p>
                 <p className="text-muted-foreground">
-                  When I'm not coding, you can find me hiking, reading tech
-                  blogs, or contributing to open-source projects.
+                  I'm also passionate about emerging technologies like
+                  blockchain and AI integration in web ecosystems, always
+                  looking to learn and implement cutting-edge solutions.
                 </p>
               </CardContent>
             </Card>

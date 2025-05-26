@@ -65,8 +65,8 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="max-w-2xl mx-auto text-lg mb-8"
         >
-          I build modern, responsive web/mobile applications with React,
-          Next.js, React Native, Node.js, Express and MongoDB
+          Proactive Full Stack Developer with 1+ years of experience building
+          scalable web and mobile applications using the MERN stack
         </motion.p>
 
         <motion.div
