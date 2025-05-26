@@ -34,7 +34,7 @@ export default function About() {
                   Full Stack Developer
                 </h3>
                 <p className="text-muted-foreground mb-4">
-                  I'm a proactive and results-driven Full Stack Developer with
+                  I&apos;m a proactive and results-driven Full Stack Developer with
                   1+ years of hands-on experience in building scalable web and
                   mobile applications using the MERN stack. I have a proven
                   track record in leading front-end and back-end development
@@ -42,14 +42,14 @@ export default function About() {
                   architecture.
                 </p>
                 <p className="text-muted-foreground mb-4">
-                  Currently working at TruScholar, I've developed complex
+                  Currently working at TruScholar, I&apos;ve developed complex
                   features for Web Wallet and Mobile App using React.js, React
-                  Native, and Node.js, improving performance by over 40%. I'm
+                  Native, and Node.js, improving performance by over 40%. I&apos;m
                   passionate about creating user-centric features and delivering
                   high-quality software that meets business goals.
                 </p>
                 <p className="text-muted-foreground">
-                  I'm also passionate about emerging technologies like
+                  I&apos;m also passionate about emerging technologies like
                   blockchain and AI integration in web ecosystems, always
                   looking to learn and implement cutting-edge solutions.
                 </p>

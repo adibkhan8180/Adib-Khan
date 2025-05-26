@@ -124,7 +124,7 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle>Send Me a Message</CardTitle>
                 <CardDescription>
-                  I'll get back to you as soon as possible.
+                  I&apos;ll get back to you as soon as possible.
                 </CardDescription>
               </CardHeader>
               <CardContent>
