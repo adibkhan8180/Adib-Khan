@@ -15,6 +15,13 @@ export default function Hero() {
   }, []);
 
   const handleDownloadCV = () => {
+    const link = document.createElement("a");
+    link.href = "/ADIB_KHAN_FULL_STACK_DEVELOPER_RESUME.pdf";
+    link.download = "ADIB_KHAN_FULL_STACK_DEVELOPER_RESUME.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
     toast("Resume Downloaded", {
       description: "Your resume has been downloaded successfully.",
     });
