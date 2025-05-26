@@ -3,21 +3,19 @@
 import { useState, useEffect } from "react";
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useToast } from "@/hooks/use-toast";
 import { motion } from "framer-motion";
 import AnimatedText from "./animated-text";
+import { toast } from "sonner";
 
 export default function Hero() {
   const [isVisible, setIsVisible] = useState(false);
-  const { toast } = useToast();
 
   useEffect(() => {
     setIsVisible(true);
   }, []);
 
   const handleDownloadCV = () => {
-    toast({
-      title: "Resume Downloaded",
+    toast("Resume Downloaded", {
       description: "Your resume has been downloaded successfully.",
     });
   };

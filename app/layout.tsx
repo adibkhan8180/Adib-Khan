@@ -1,12 +1,13 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
-import Navbar from "@/components/navbar"
-import BackgroundGradient from "@/components/background-gradient"
+import type React from "react";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import Navbar from "@/components/navbar";
+import BackgroundGradient from "@/components/background-gradient";
+import { Toaster } from "sonner";
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Adib Khan | Full Stack MERN Developer",
@@ -17,12 +18,17 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <BackgroundGradient />
           <Navbar />
           {children}
@@ -32,7 +38,8 @@ export default function RootLayout({
             </div>
           </footer>
         </ThemeProvider>
+        <Toaster />
       </body>
     </html>
-  )
+  );
 }
