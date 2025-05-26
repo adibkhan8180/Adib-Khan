@@ -16,8 +16,10 @@ import AnimatedText from "./animated-text";
 export default function Projects() {
   const projects = [
     {
-      title: "INVOICER - INVOICE MANAGEMENT WEB APPLICATION",
-      description: [
+      title: "INVOICER - Invoice Management Web Application",
+      description:
+        "A full-stack invoice management platform using Next.js (App Router) and React, allowing users to create, edit, delete, and download invoices in custom-coded PDF format.",
+      features: [
         "Developed a full-stack invoice management platform using Next.js (App Router) and React, allowing users to create, edit, delete, and download invoices in custom-coded PDF format.",
         "Implemented secure user authentication with Auth.js and Magic Link login via Mailtrap, improving user onboarding and account security.",
         "Integrated Mailtrap Email API to send automated, template-based emails (Send Invoice, Reminder, Edit Notification) using HTML email templates.",
@@ -30,7 +32,8 @@ export default function Projects() {
         "Tailwind CSS",
         "Shadcn UI",
         "Auth.js",
-        "Neon",
+        "Chart.js",
+        "Neon Postgres",
         "Prisma",
         "Zod",
         "Postgres",
@@ -42,8 +45,10 @@ export default function Projects() {
       githubLink: "https://github.com/adibkhan8180/Invoicer",
     },
     {
-      title: "QUICK CONNECT – REAL-TIME CHAT APPLICATION",
-      description: [
+      title: "QUICK CONNECT – Real-time Chat Application",
+      description:
+        "A mobile chat application using React Native and the MERN stack, enabling seamless real-time messaging with support for authentication and secure login features.",
+      features: [
         "Built a mobile chat application using React Native and the MERN stack, enabling seamless real-time messaging with support for authentication, secure login, and signup features.",
         "Integrated Socket.IO for bi-directional, real-time communication between users, enabling instant delivery and receipt of chat messages.",
         "Developed a scalable backend using Node.js, Express, and MongoDB, implementing JWT-based authentication for session security and user data protection.",
@@ -65,8 +70,10 @@ export default function Projects() {
       githubLink: "https://github.com/adibkhan8180/QuickConnect",
     },
     {
-      title: "ALAN AI - NEWS APPLICATION",
-      description: [
+      title: "ALAN AI - Voice-Controlled News Application",
+      description:
+        "An innovative voice-controlled news application using Alan AI SDK, allowing hands-free interaction and real-time updates with dynamic content fetching.",
+      features: [
         "Engineered an innovative voice-controlled news application using Alan AI SDK, allowing hands-free interaction and real-time updates.",
         "Leveraged React.js to design a clean, responsive interface that adapts across devices and screen sizes.",
         "Integrated public news APIs for fetching dynamic articles from trusted sources across categories.",
@@ -81,7 +88,14 @@ export default function Projects() {
     {
       title: "Netflix Clone",
       description:
-        "A content management system for blogs with rich text editing, categories, tags, and user comments.",
+        "A Netflix clone built with React.js, Firebase, Tailwind CSS, Node.js, Express.js, and MongoDB.",
+      features: [
+        "Developed a dynamic Netflix-like streaming platform using React.js, delivering an intuitive and responsive user experience.",
+        "Built backend services with Node.js and Express.js, enabling seamless data handling and API performance.",
+        "Integrated MongoDB for scalable data storage and Firebase Authentication for secure user login and session management.",
+        "Applied modular code structure and reusable components, improving app maintainability and scalability.",
+        "Achieved a 30% performance improvement and 20% boost in user engagement, backed by smooth navigation and fast load times.",
+      ],
       image: "/netflix.png",
       technologies: [
         "React.js",
@@ -91,8 +105,8 @@ export default function Projects() {
         "Express.js",
         "MongoDB",
       ],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://github.com/adibkhan8180/Netflix-Clone",
+      githubLink: "https://github.com/adibkhan8180/Netflix-Clone",
     },
   ];
 
@@ -118,33 +132,43 @@ export default function Projects() {
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <CardHeader>
-                  <CardTitle>{project.title}</CardTitle>
-                  <CardDescription>
-                    {Array.isArray(project.description) ? (
-                      <ul className="list-disc ml-5 space-y-1 text-sm text-muted-foreground">
-                        {project.description.map((point, i) => (
-                          <li key={i}>{point}</li>
-                        ))}
-                      </ul>
-                    ) : (
-                      <p className="text-sm text-muted-foreground">
-                        {project.description}
-                      </p>
-                    )}
-                  </CardDescription>
+                  <CardTitle className="text-lg">{project.title}</CardTitle>
+                  <CardDescription>{project.description}</CardDescription>
                 </CardHeader>
-
-                <CardContent>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.technologies.map((tech, techIndex) => (
-                      <Badge
-                        key={techIndex}
-                        variant="secondary"
-                        className="transition-all duration-300 hover:bg-primary/20 hover:text-primary"
-                      >
-                        {tech}
-                      </Badge>
-                    ))}
+                <CardContent className="flex-1">
+                  <div className="space-y-4">
+                    {project.features && (
+                      <div>
+                        <h4 className="font-semibold mb-2">Key Features:</h4>
+                        <ul className="space-y-1">
+                          {project.features.map((feature, featureIndex) => (
+                            <li
+                              key={featureIndex}
+                              className="flex items-start gap-2 text-sm"
+                            >
+                              <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0" />
+                              <span className="text-muted-foreground">
+                                {feature}
+                              </span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    <div>
+                      <h4 className="font-semibold mb-2">Technologies:</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {project.technologies.map((tech, techIndex) => (
+                          <Badge
+                            key={techIndex}
+                            variant="secondary"
+                            className="text-xs transition-all duration-300 hover:bg-primary/20 hover:text-primary"
+                          >
+                            {tech}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </CardContent>
                 <CardFooter className="flex gap-4">
