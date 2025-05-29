@@ -13,6 +13,15 @@ export const metadata: Metadata = {
   title: "Adib Khan | Full Stack MERN Developer",
   description:
     "Portfolio of Adib Khan, a Full Stack Developer specializing in MongoDB, Express, React.js, Next.js, React Native and Node.js with 1+ years of experience at TruScholar",
+  icons: {
+    apple: "/apple-touch-icon.png",
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    other: [{ rel: "manifest", url: "/site.webmanifest" }],
+  },
 };
 
 export default function RootLayout({

@@ -55,7 +55,7 @@ export default function Projects() {
         "Utilized React Navigation, Async Storage, and Axios on the client side to handle session persistence, API communication, and smooth screen transitions.",
         "Structured the application with modular code, using dependencies like Mongoose, JWT Decode, and Socket.IO Client to ensure maintainability and performance across platforms.",
       ],
-      image: "/placeholder.svg?height=400&width=600",
+      image: "",
       technologies: [
         "React Native",
         "Socket.io",
