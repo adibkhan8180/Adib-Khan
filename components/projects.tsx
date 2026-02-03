@@ -16,6 +16,34 @@ import AnimatedText from "./animated-text";
 export default function Projects() {
   const projects = [
     {
+      title: "PrepSync - AI-Powered Mock Interview Platform",
+      description:
+        "A full-stack interview simulation platform that uses AI to generate context-aware questions, simulates real-time conversations, and provides instant feedback on technical accuracy and communication tone.",
+      features: [
+        "Architected a full-stack interview simulation platform using Next.js and Tailwind CSS, optimizing the frontend to handle real-time AI streaming without UI blocking.",
+        "Engineered a Retrieval-Augmented Generation (RAG) pipeline using LangChain and vector embeddings to parse unstructured job descriptions, generating context-aware questions tailored to specific roles.",
+        "Orchestrated complex LLM workflows via Node.js to function as a dynamic interviewer, maintaining conversation history in MongoDB to adjust question difficulty based on candidate performance.",
+        "Integrated Speech-to-Text and Text-to-Speech APIs to facilitate bidirectional voice interaction, processing audio streams asynchronously to simulate a natural, low-latency conversational flow.",
+        "Developed a comparative analysis engine that evaluates user responses against AI-generated optimal answers, providing instant, actionable feedback on technical accuracy and communication tone.",
+      ],
+      image: "/ai-interviewer.png",
+      technologies: [
+        "Next.js",
+        "Tailwind CSS",
+        "RAG",
+        "LangChain",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Vercel",
+        "OpenAI API",
+        "Speech-to-Text API",
+        "Text-to-Speech API",
+      ],
+      liveLink: "https://ai-interview-model-frontend.vercel.app/",
+      githubLink: "https://github.com/adibkhan8180/ai-interview-model",
+    },
+    {
       title: "INVOICER - Invoice Management Web Application",
       description:
         "A full-stack invoice management platform using Next.js (App Router) and React, allowing users to create, edit, delete, and download invoices in custom-coded PDF format.",
