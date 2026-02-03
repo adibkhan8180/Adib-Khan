@@ -53,7 +53,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl" />
             <div className="relative bg-background/80 backdrop-blur-sm rounded-full p-4 border border-primary/20">
               <h3 className="text-sm md:text-base font-medium">
-                Full Stack MERN Developer
+                Full Stack Developer at TruScholar
               </h3>
             </div>
           </div>
@@ -70,8 +70,9 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="max-w-2xl mx-auto text-lg mb-8"
         >
-          Proactive Full Stack Developer with 1+ years of experience building
-          scalable web and mobile applications using the MERN stack
+          Proactive and results-driven Full Stack Developer with 2+ years of
+          hands-on experience in building scalable web and mobile applications
+          using the MERN stack.
         </motion.p>
 
         <motion.div
@@ -88,11 +89,7 @@ export default function Hero() {
             <span className="absolute inset-0 bg-primary/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
             <span className="relative">Download CV</span>
           </Button> */}
-          <Button
-            size="lg"
-            asChild
-            className="relative overflow-hidden group"
-          >
+          <Button size="lg" asChild className="relative overflow-hidden group">
             <a href="#contact">
               <span className="absolute inset-0 bg-primary/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
               <span className="relative">Contact Me</span>
