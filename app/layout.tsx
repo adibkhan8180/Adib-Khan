@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Adib Khan | Full Stack MERN Developer",
   description:
-    "Portfolio of Adib Khan, a Full Stack Developer specializing in MongoDB, Express, React.js, Next.js, React Native and Node.js with 1+ years of experience at TruScholar",
+    "Portfolio of Adib Khan, a Full Stack Developer specializing in MongoDB, Express, React.js, Next.js, React Native and Node.js with 2+ years of experience at TruScholar",
   icons: {
     apple: "/apple-touch-icon.png",
     icon: [

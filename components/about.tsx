@@ -35,7 +35,7 @@ export default function About() {
                 </h3>
                 <p className="text-muted-foreground mb-4">
                   I&apos;m a proactive and results-driven Full Stack Developer with
-                  1+ years of hands-on experience in building scalable web and
+                  2+ years of hands-on experience in building scalable web and
                   mobile applications using the MERN stack. I have a proven
                   track record in leading front-end and back-end development
                   with a focus on performance optimization and clean
