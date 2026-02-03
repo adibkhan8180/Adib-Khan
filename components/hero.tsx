@@ -80,22 +80,21 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <Button
+          {/* <Button
             size="lg"
             onClick={handleDownloadCV}
             className="relative overflow-hidden group"
           >
             <span className="absolute inset-0 bg-primary/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
             <span className="relative">Download CV</span>
-          </Button>
+          </Button> */}
           <Button
             size="lg"
-            variant="outline"
             asChild
             className="relative overflow-hidden group"
           >
             <a href="#contact">
-              <span className="absolute inset-0 bg-primary/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
+              <span className="absolute inset-0 bg-primary/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
               <span className="relative">Contact Me</span>
             </a>
           </Button>
